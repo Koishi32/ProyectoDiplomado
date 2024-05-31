@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4906691149993355733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3933934126059138428}
+  - component: {fileID: 3250170761009487841}
+  m_Layer: 0
+  m_Name: EnemyManager
+  m_TagString: EnemManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3933934126059138428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906691149993355733}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -27.355268, y: -9.525932, z: -14.780812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3250170761009487841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906691149993355733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86e1b59b1d31234c847bf7040fe40b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints: []
+  WinScreen: {fileID: 0}
+  zombiePrefab: {fileID: 3343584491441417076, guid: 42f917fcf9ae46e49b56dce4ed53a1cf, type: 3}
+  DronPrefab: {fileID: 983192663796209334, guid: e8253b4b83c4c1640a67ba0d6cde0bad, type: 3}
+  myStats: {fileID: 11400000, guid: 91cf05ec067f0504cb3e25c27cd79ed5, type: 2}
+  ZombiesLeftAlive: 0
+  DronesLeftAlive: 0
+  myType: 1

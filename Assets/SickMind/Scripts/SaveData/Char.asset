@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1826f3fe869399a498f19d07ef3d6c32, type: 3}
+  m_Name: Char
+  m_EditorClassIdentifier: 
+  life_actual: 140
+  exp_actual: 0
+  Level: 2
+  stamina_actual: 120
+  MybaseLife: 100
+  DaysHappened: 2
+  currentClip_P: 15
+  currentAmmo_P: 395
+  currentClip_S: 5
+  currentAmmo_S: 79
+  HoursLeftOfDay: 1
+  CanIuseShotgun: 1
+  CanIuseExtra: 0
+  MusicVolume: 0.63517785
+  SFXVolume: 0.20389962
+  MybaseLife_max: 100
+  stamina_Max: 120
+  life_max: 140
+  exp_max: 200
+  maxClipSize_P: 15
+  maxClipSize_S: 6
